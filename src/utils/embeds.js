@@ -468,8 +468,6 @@ module.exports = {
 
   // Event: messageUpdate
   messageU: (client, oldMessage) => {
-    var date = Date.now();
-
     const messageUpdate = new EmbedBuilder()
       .setColor(client.color)
       .setAuthor({
